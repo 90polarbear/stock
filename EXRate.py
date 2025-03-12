@@ -78,7 +78,7 @@ def showCurrency(code) -> "JPY": # code 為外幣代碼
     # 銀行即期賣出價格
     sold_spot = "無資料" if currency[4] == '-' else str(float(currency[4])) 
 
-    content +=  f"{currency_name} 最新掛牌時間為: {now_time}\n ---------- \n 現金買入價格: {buying_cash}\n 現金賣出價格: {sold_cash}\n 即期買入價格: {buying_spot}\n 即期賣出價格: {sold_spot}\n \n'
+    content += f"{currency_name} 最新掛牌時間為: {now_time}\n ---------- \n 現金買入價格: {buying_cash}\n 現金賣出價格: {sold_cash}\n 即期買入價格: {buying_spot}\n 即期賣出價格: {sold_spot}\n \n"
     return content
     
 ##--------------------------------------------
