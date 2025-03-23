@@ -22,7 +22,6 @@ pandas_datareader        # 取得財經數據，支援 Yahoo Finance、Google Fi
 yfinance==0.1.50         # 獲取 Yahoo Finance 股票數據
 twder                    # 取得台灣匯率數據
 matplotlib               # 繪圖函式庫，用於數據視覺化
-TA-Lib==0.4.28           # 技術分析庫，用於計算股票技術指標
 
 # 時間與排程
 datetime                 # Python 內建的日期與時間處理模組
