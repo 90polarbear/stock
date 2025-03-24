@@ -20,7 +20,7 @@ numpy>=1.26.4            # 數值運算函式庫，支援矩陣運算與數學�
 pandas>=2.2.1            # 資料處理與分析工具，類似 Excel 操作
 pandas_datareader>=0.10.0 # 取得財經數據，支援 Yahoo Finance、Google Finance 等
 yfinance>=0.2.37         # 獲取 Yahoo Finance 股票數據
-twder>=0.5.1             # 取得台灣匯率數據
+twder==0.2.2             # 取得台灣匯率數據
 matplotlib>=3.8.3        # 繪圖函式庫，用於數據視覺化
 ta-lib>=0.4.28           # 技術分析庫，用於股票與金融數據分析
 
