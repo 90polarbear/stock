@@ -8,6 +8,9 @@ cd ta-lib
 ./configure --prefix=/app/.heroku/vendor
 make
 make install
+echo "-----> Verifying TA-Lib installation"
+ls -la /app/.heroku/vendor/include/ta-lib
+ls -la /app/.heroku/vendor/lib
 export C_INCLUDE_PATH=/app/.heroku/vendor/include:$C_INCLUDE_PATH
 export LD_LIBRARY_PATH=/app/.heroku/vendor/lib:$LD_LIBRARY_PATH
 echo "-----> TA-Lib installation complete"
