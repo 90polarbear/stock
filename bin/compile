@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+echo "-----> Installing TA-Lib"
+curl -L http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz | tar xz
+cd ta-lib
+./configure --prefix=/app/.heroku/vendor
+make
+make install
+echo "-----> TA-Lib installation complete"
