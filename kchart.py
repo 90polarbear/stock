@@ -16,7 +16,7 @@ from bs4 import BeautifulSoup
 import datetime as datetime
 
 #talib
-import talib
+import pandas_ta as ta
 import pandas as pd
 import requests,datetime
 from matplotlib.font_manager import FontProperties # 設定字體
