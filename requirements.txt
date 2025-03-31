@@ -22,6 +22,7 @@ pandas_datareader>=0.10.0 # 取得財經數據，支援 Yahoo Finance、Google F
 yfinance>=0.2.37         # 獲取 Yahoo Finance 股票數據
 twder==0.2.2             # 取得台灣匯率數據
 matplotlib>=3.8.3        # 繪圖函式庫，用於數據視覺化
+TA-Lib
 setuptools
 
 # 時間與排程
