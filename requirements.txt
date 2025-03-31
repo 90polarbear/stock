@@ -2,7 +2,7 @@
 line-bot-sdk>=3.11.0      # LINE 官方 SDK，用於開發 LINE 聊天機器人
 flask>=3.0.3             # 輕量級 Web 框架，常用於建立 API 伺服器
 gunicorn>=22.0.0         # WSGI 伺服器，適用於部署 Flask 應用
-
+https://files.pythonhosted.org/packages/e4/38/6e55700e8f9e2d0f9f5fdda0b3e24f8f794b2804d5de465a96209a09e15b/TA_Lib-0.4.28-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 # 資料庫相關
 pymongo>=4.6.2           # MongoDB 的 Python 客戶端，用於操作 NoSQL 資料庫
 
