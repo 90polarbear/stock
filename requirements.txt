@@ -1,27 +1,17 @@
-# LINE Bot 相關套件
-line-bot-sdk>=3.11.0      # LINE 官方 SDK，用於開發 LINE 聊天機器人
-flask>=3.0.3             # 輕量級 Web 框架，常用於建立 API 伺服器
-gunicorn>=22.0.0         # WSGI 伺服器，適用於部署 Flask 應用
-
-# 資料庫相關
-pymongo>=4.6.2           # MongoDB 的 Python 客戶端，用於操作 NoSQL 資料庫
-
-# 圖片處理相關
-imgurpython==1.1.7       # Imgur API 的 Python 介面，可用於圖片上傳與管理
-
-# 網路請求與資料擷取
-requests>=2.31.0         # 發送 HTTP 請求，爬取網頁或 API 數據
-beautifulsoup4>=4.12.3   # 解析 HTML/XML，方便進行網頁爬蟲與資料擷取
-html5lib>=1.1            # HTML 解析器，搭配 BeautifulSoup 使用
-selenium>=4.18.1         # 瀏覽器自動化操作工具，可模擬使用者行為進行爬蟲
-
-# 數據處理與分析
-numpy>=1.26.4            # 數值運算函式庫，支援矩陣運算與數學計算
-pandas>=2.2.1            # 資料處理與分析工具，類似 Excel 操作
-pandas_datareader>=0.10.0 # 取得財經數據，支援 Yahoo Finance、Google Finance 等
-yfinance>=0.2.37         # 獲取 Yahoo Finance 股票數據
-twder==0.2.2             # 取得台灣匯率數據
-matplotlib>=3.8.3        # 繪圖函式庫，用於數據視覺化
-
-# 時間與排程
-schedule>=1.2.1          # 任務排程工具，可用於定時執行特定函數
+line-bot-sdk==1.8.0
+flask==1.1.1
+gunicorn
+pymongo
+imgurpython==1.1.7
+requests
+numpy
+matplotlib
+pandas
+datetime
+beautifulsoup4==4.8.1
+schedule
+pandas_datareader
+html5lib
+yfinance==0.1.50
+twder
+selenium==3.8.0
