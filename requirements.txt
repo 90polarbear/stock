@@ -15,3 +15,5 @@ html5lib
 yfinance==0.1.50
 twder
 selenium==3.8.0
+pandas_datareader
+setuptools
